@@ -1,0 +1,14 @@
+.content{
+  float: left;
+  width: 75%;
+  padding: 0 0 0 30px;
+  background: #8d8f6d;
+  height: 100%;
+}
+.sidebar{
+  float: right;
+  width: 25%;
+  padding: 10px;
+  background: #ce8be8;
+  height: 100%;
+}

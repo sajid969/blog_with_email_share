@@ -1,0 +1,7 @@
+from django import forms
+
+class emailsendform(forms.Form):
+    name=forms.CharField()
+    email=forms.EmailField()
+    to=forms.EmailField()
+    comments=forms.CharField(required=False,widget=forms.Textarea)
